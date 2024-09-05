@@ -51,12 +51,6 @@ void getNews(const std::string& apiKey) {
     }
 }
 
-void getMotto() {
-    // Example static motto
-    std::string motto = "Stay positive, work hard, make it happen.";
-    std::cout << "Motto of the day: " << motto << std::endl;
-}
-
 int main() {
     std::string weatherApiKey = "your_weather_api_key";
     std::string newsApiKey = "your_news_api_key";
@@ -65,7 +59,6 @@ int main() {
 
     getWeather(weatherApiKey);
     getNews(newsApiKey);
-    getMotto();
 
     return 0;
 }
